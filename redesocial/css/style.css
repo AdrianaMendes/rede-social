@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+div#menuMain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: black;;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+div#menuMain div#content{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div#menuMain div#content div#lef{
+    float: left;
+    display: inline-block;
+    width: 450px;
+}
+
+div#menuMain div#content div#lef div#input{
+    background: #752680;
+    padding: 9px 11px;
+    border-radius: 1px;
+    width: 250px;
+    height: 18px;
+    margin: 12px 0;
+    transition: .3s;
+}
+
+div#menuMain div#content div#lef div#input span.icon{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    display: inline-block;
+    background: url(../img/find.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+div#menuMain div#content div#lef div#input span.icon.fcs{
+    background: url(../img/findFc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div#menuMain div#content div#lef div#input input[type=text]{
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: calc(100% - 30px);
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    height: 18px;
+    color: #d4d4d4;
+}
+
+div#menuMain div#content div#lef div#input input[type=text]::-webkit-input-placeholder{
+    color: #d4d4d4;
+}
+
+div#menuMain div#content div#lef div#input input[type=text]:-moz-placeholder{
+    color: #d4d4d4;
+}
+
+div#menuMain div#content div#lef div#input input[type=text]::-moz-placeholder{
+    color: #d4d4d4;
+}
+
+div#menuMain div#content div#lef div#input input[type=text]:-ms-input-placeholoder{
+    color: #d4d4d4;
+}
+
+div#menuMain div#content div#lef div#input input[type=text].fcs{
+    color: #717171;
+}
+
+div#menuMain div#content div#lef div#input input[type=text].fcs::-webkit-input-placeholder{
+    color: #717171;
+}
+
+div#menuMain div#content div#lef div#input input[type=text].fcs:-moz-placeholder{
+    color: #717171;
+}
+
+div#menuMain div#content div#lef div#input input[type=text].fcs::-moz-placeholder{
+    color: #717171;
+}
+
+div#menuMain div#content div#lef div#input input[type=text].fcs:-ms-input-placeholoder{
+    color: #717171;
+}
+
+div#menuMain div#content div#md{
+    width: calc(100% - 900px);
+    position: relative;
+    margin: 0 auto;
+}
+
+div#menuMain div#content div#md span#logo{
+    width: 60px;
+    height: 42px;
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+
+div#menuMain div#content div#md span#logo i{
+    height: 75px;
+    width: 60px;
+    display: inline-block;
+    background: url(../img/s2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div#menuMain div#content div#rig{
+    float: right;
+    display: inline-block;
+    width: 450px;
+}
