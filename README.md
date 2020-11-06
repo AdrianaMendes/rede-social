@@ -10,19 +10,19 @@ O SGBD utilizado para a criação da rede social foi o MySQL, tendo como servido
 
 Diagrama Relacional
 
-![Diagrama ER](diagrama ER - rede social.png)
+![Diagrama ER](diagramaER-redesocial.png)
 
 Esquema Relacional
 
-![Esquema relacional](esquema relacional.jpeg)
+![Esquema relacional](esquemarelacional.jpeg)
 
 ## Prints
 
-![Página inicial](prints\index.png)
+![Página inicial](prints/index.png)
 
-![Página inicial 2](prints\index2.png)
+![Página inicial 2](prints/index2.png)
 
-![Página inicial 3](prints\index3.png)
+![Página inicial 3](prints/index3.png)
 
 ![Login](prints/login.png)
 
