@@ -28,9 +28,9 @@ Esquema Relacional
 
 ![Cadastro](prints/cadastro.png)
 
-![Perfil](prints\perfil.png)
+![Perfil](prints/perfil.png)
 
-![Recados](prints\recados.png)
+![Recados](prints/recados.png)
 
 # Licença
 
